@@ -1,0 +1,61 @@
+
+.banner-content{
+    /* background: url(../../Images/Tulips.jpg); */
+    /* background-size: cover;
+    height: 500px; */
+    margin-bottom: 2rem;
+    position: relative;
+    display: grid;
+}
+.banner-img{
+    width: 100%;
+    max-height: 500px;
+    opacity: 0.6;
+}
+
+.left-b{
+    position: absolute;
+    top: 50%;
+    transform: translateX(50%);
+}
+.right-b{
+    position: absolute;
+    width:20%;
+    top:10%;
+    right: 10%;
+    transform: translateX(10%);
+}
+.left-b  h1{
+    font-size: 40px;
+}
+.banner-about h1 span{
+    color: blue;
+}
+.banner-about p{
+    font-size: 20px;
+}
+
+.img1{
+    animation-name: img1;
+    animation-duration: 4s;
+    position: relative;
+    opacity: 1;
+}
+.img2{
+    animation-name: img2;
+    animation-duration: 4s;
+    /* animation-direction: alternate; */
+    position: relative;
+    opacity: 1;
+}
+
+/* ANIMATION CSS */
+
+@keyframes img1 {
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@keyframes img2 {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}

@@ -1,0 +1,60 @@
+.todolist{
+    place-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+.todo-Section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+#icon{
+    cursor: pointer;
+    margin: auto 0;
+}
+.list-heading{
+    padding: 1rem 0;
+    background-color:darkgreen;
+    color: white;
+}
+.title{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.todolist-content{
+    display: flex;
+    margin: 2rem auto;
+    padding: 5px ;
+    background-color: white;
+    color: black;
+    width: 50%;
+    border-radius: 20px;
+}
+
+h4{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.list-items{
+    margin: 1rem 0.5rem;
+}
+.showitems{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.deleteIcon{
+    margin:  auto 0;
+}
+
+

@@ -1,0 +1,27 @@
+.categoryNav{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    box-shadow: border-box;
+
+}
+.categoryNav-items{
+    display: flex;
+    justify-content: space-around;
+}
+.categoryitem{
+    display:block;
+    text-align: center;
+    padding: 10px;
+}
+.category-menu-link{
+    color: white;
+}
+.category-menu-link:hover{
+    color: white;
+    border-bottom:3px solid blue;
+    padding: 10%;
+    text-decoration: none;
+
+
+}

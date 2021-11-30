@@ -1,0 +1,33 @@
+
+
+
+.contact-form {
+ padding : 15px 120px;
+
+}
+form{
+    padding: 20px;
+    
+
+}
+.form-group > .standard-input{
+    float:left;
+    width:45%;
+    margin: 0 2rem 1rem 0;
+}
+
+.form-title{
+    text-align: center;
+    font-weight:bold;
+    font-family:sans-serif;
+    background-color:silver;
+}
+#rt-clr{
+    color: blue;
+}
+
+#textarea{
+    width:100%;
+    height: 150px;
+    margin: 15px 0;
+}

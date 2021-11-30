@@ -1,0 +1,16 @@
+body{
+    box-sizing: border-box;
+    background-color: white;
+    /* background-color: #004d4d; */
+    /* background-color: #EAEDED; */
+
+    font-family: 'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    font-size: 72%;
+}
+
+a , li{
+    list-style-type: none;
+    text-decoration: none;
+}

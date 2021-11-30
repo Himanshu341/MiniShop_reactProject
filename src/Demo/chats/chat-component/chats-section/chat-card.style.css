@@ -1,0 +1,20 @@
+.main-chat-card{
+    margin-top: 1rem;
+    box-sizing: border-box;
+
+}
+.chat-card-content{
+    display: grid;
+    grid-template-columns:  1fr 3fr;
+    height: auto;
+}
+.chat-card-content .profile-pic{
+    grid-column: 1/2;
+    width: 100px;
+    padding: 5px;
+}
+.chat-msg h5{
+    grid-column: 2/3;
+    margin:1rem 0rem 0 1rem ;
+
+}
